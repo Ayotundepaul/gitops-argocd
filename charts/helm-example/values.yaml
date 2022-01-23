@@ -6,8 +6,13 @@ replicaCount: 1
 
 image:
   pullPolicy: IfNotPresent
+<<<<<<< HEAD
   repository: 048824573157.dkr.ecr.us-east-2.amazonaws.com/gitops-argocd
   version: main-ddb23eb
+=======
+  repository: 145664717845.dkr.ecr.ap-south-1.amazonaws.com/gitops-argocd
+  version: main-ddb23eb
+>>>>>>> 99e54eee3bf7cdf4166ed64f87bf757d2b70892b
 
 imagePullSecrets: []
 nameOverride: ""
